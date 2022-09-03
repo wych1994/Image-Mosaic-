@@ -2,9 +2,9 @@ clear all
 close all
 clc
 
-master_image_dir='C:\Users\65788\Desktop\thumbnail_Image.jpg';
-% tile_image_dir='C:\OneDrive\OneDrive - The Ohio State University\IMGDATA\Particles_UniBKG';
-% tile_image_dir='C:\SimMetaD\CPUproject\Mosaic\Photomosaic-generator-master\image_pool'
+master_image_dir='XXXX';  %main image you want to mosaic
+tile_image_dir='xxxx';  %tile image folder
+
 OI=imread(master_image_dir);
 [h,w,~]=size(OI);
 downscale=10;
